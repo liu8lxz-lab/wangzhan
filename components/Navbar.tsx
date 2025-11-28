@@ -4,6 +4,7 @@ import { Menu, X, User as UserIcon, LogOut, ShieldCheck } from 'lucide-react';
 import { useAuth } from '../auth/AuthContext';
 import { NAV_LINKS } from '../constants';
 import { Button } from './UI';
+import logoImg from './logo.png';
 
 export const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,7 +20,7 @@ export const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => window.location.hash = '/'}>
             <img 
-              src="https://r2.erweima.ai/imgzone/aistudio/95213b185f4121a11584c562e6462788.png" 
+              src= logoImg
               alt="英创科研猫" 
               className="h-12 w-auto object-contain" 
             />
