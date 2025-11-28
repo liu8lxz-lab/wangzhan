@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { MessageCircle, Phone, QrCode } from 'lucide-react';
+import wechatImg from ./wechat.png;
 
 export const FloatingWidget: React.FC = () => {
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
@@ -11,7 +12,7 @@ export const FloatingWidget: React.FC = () => {
       label: '公众号', 
       content: (
         <div className="p-2 bg-white rounded-lg shadow-xl text-center">
-          <img src="https://r2.erweima.ai/imgzone/aistudio/47b4d3202167d5598822003883392576.png" alt="WeChat QR" className="w-32 h-32 mb-2 object-cover" />
+          <img src= wechatImg alt="WeChat QR" className="w-32 h-32 mb-2 object-cover" />
           <p className="text-xs text-gray-600">扫码关注英创科研猫</p>
         </div>
       )
