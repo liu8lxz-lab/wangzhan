@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { MessageCircle, Phone, QrCode } from 'lucide-react';
-import wechatImg from ./wechat.png;
+import wechatImg from './wechat.png';
 
 export const FloatingWidget: React.FC = () => {
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
