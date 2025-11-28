@@ -20,7 +20,7 @@ export const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => window.location.hash = '/'}>
             <img 
-              src= logoImg
+              src= {logoImg}
               alt="英创科研猫" 
               className="h-12 w-auto object-contain" 
             />
