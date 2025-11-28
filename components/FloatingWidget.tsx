@@ -8,7 +8,7 @@ export const FloatingWidget: React.FC = () => {
   const items = [
     { 
       id: 'wechat', 
-      icon: <QrCode size={24} />, 
+      icon: <QrCode size={120} />, 
       label: '公众号', 
       content: (
         <div className="p-2 bg-white rounded-lg shadow-xl text-center">
