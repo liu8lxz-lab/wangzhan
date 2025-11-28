@@ -15,7 +15,7 @@ export const FloatingWidget: React.FC = () => {
           <img 
             src={wechatImg}
             alt="WeChat QR" 
-            className="w-32 h-auto mb-2 mx-auto object-contain" 
+            className="w-40 h-auto mb-2 mx-auto object-contain" 
           />
           <p className="text-xs text-gray-600">扫码关注英创科研猫</p>
         </div>
