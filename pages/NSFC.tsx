@@ -18,7 +18,8 @@ export const NSFCPage: React.FC = () => {
              <Button className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold px-8 py-3" onClick={openRegModal}>标书评估</Button>
           </div>
           <div className="md:w-1/2 flex justify-center">
-             <img src="https://picsum.photos/seed/nsfc/500/400" alt="Grant" className="rounded-lg shadow-2xl transform rotate-2 border-4 border-blue-800" />
+             {/* Updated Image: Strategic planning / Meeting */}
+             <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80&w=800" alt="Grant Strategy" className="rounded-lg shadow-2xl transform rotate-2 border-4 border-blue-800" />
           </div>
         </div>
       </div>
