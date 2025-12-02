@@ -15,7 +15,7 @@ export const SERVICES: ServiceItem[] = [
     description: '从选题到发表，资深统计学家一对一指导Meta分析全流程。',
     category: ServiceCategory.SCI,
     iconName: 'PieChart',
-    imageUrl: 'https://picsum.photos/seed/meta/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800',
     guaranteePoints: ['选题可行性评估', '统计数据分析', '论文撰写指导']
   },
   {
@@ -24,7 +24,7 @@ export const SERVICES: ServiceItem[] = [
     description: '无需代码基础，掌握公共数据库挖掘与生信分析核心技能。',
     category: ServiceCategory.SCI,
     iconName: 'Dna',
-    imageUrl: 'https://picsum.photos/seed/bioinfo/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80&w=800',
     guaranteePoints: ['公共数据库挖掘', '生信图表制作', '结果分析解读']
   },
   {
@@ -33,7 +33,7 @@ export const SERVICES: ServiceItem[] = [
     description: '回顾性/前瞻性临床研究设计，伦理申请与数据统计支持。',
     category: ServiceCategory.SCI,
     iconName: 'Stethoscope',
-    imageUrl: 'https://picsum.photos/seed/clinical/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80&w=800',
     guaranteePoints: ['研究方案设计', '数据统计分析', '伦理申请支持']
   },
   {
@@ -42,7 +42,7 @@ export const SERVICES: ServiceItem[] = [
     description: '药理毒理、药物制剂及药代动力学实验设计与论文撰写。',
     category: ServiceCategory.SCI,
     iconName: 'Pill',
-    imageUrl: 'https://picsum.photos/seed/pharma/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1587854692152-cbe660dbde88?auto=format&fit=crop&q=80&w=800',
     guaranteePoints: ['实验方案设计', '药理机制分析', 'SCI论文润色']
   },
   {
@@ -51,7 +51,7 @@ export const SERVICES: ServiceItem[] = [
     description: '标书润色、创新点挖掘、专家预评审，提高中标率。',
     category: ServiceCategory.NSFC,
     iconName: 'Award',
-    imageUrl: 'https://picsum.photos/seed/grant/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800',
     guaranteePoints: ['标书创新性评估', '多轮专家修改', '形式审查把关']
   },
   {
@@ -60,7 +60,7 @@ export const SERVICES: ServiceItem[] = [
     description: '母语专家润色，消除语言障碍，符合国际期刊发表标准。',
     category: ServiceCategory.QUALITY,
     iconName: 'Languages',
-    imageUrl: 'https://picsum.photos/seed/edit/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&q=80&w=800',
     guaranteePoints: ['翻译（中译英）服务', '润色服务', '返修指导']
   },
   {
@@ -69,7 +69,7 @@ export const SERVICES: ServiceItem[] = [
     description: '根据文章质量与领域，精准推荐目标期刊，缩短投稿周期。',
     category: ServiceCategory.QUALITY,
     iconName: 'Compass',
-    imageUrl: 'https://picsum.photos/seed/journal/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&q=80&w=800',
     guaranteePoints: ['选刊推荐', '格式优化', '投稿指导']
   },
   {
@@ -78,7 +78,7 @@ export const SERVICES: ServiceItem[] = [
     description: '模拟审稿人视角，深度剖析文章不足，提出具体修改建议。',
     category: ServiceCategory.QUALITY,
     iconName: 'FileCheck',
-    imageUrl: 'https://picsum.photos/seed/review/400/300',
+    imageUrl: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800',
     guaranteePoints: ['全文评审', '评审批注', '定稿评阅']
   }
 ];
